@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Inter&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@300&family=Montserrat&family=Open+Sans&family=Poppins:wght@500&family=Roboto+Serif:opsz,wght@8..144,300&family=Roboto+Slab&family=Whisper&display=swap');
+body{
+    background-color: #1f2235;
+    color: #d9d9d9;
+    font-family: Inter;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 60px;
+    position: sticky;
+    top: 0;
+    background: #1f2235;
+}
+.timi{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #d9d9d9;
+    letter-spacing: 2px;
+}
+nav a{
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 10px 20px;
+}
+ul li:nth-child(4){
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid rgba(243, 222, 222, 0.4);
+    margin-right: 10px;
+}
+ul li:nth-child(4):hover{
+    background-color: #ffb400;
+}
+nav ul li:last-child{
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid rgba(243, 222, 222, 0.4);
+}
+
+nav ul li:last-child:hover{
+    background-color: transparent;
+    border: 1px solid #ffb400;
+}
+nav ul li:last-child:hover a{
+    color: #ffb400;
+}
+ul li:last-child a{
+    color: #d9d9d9;
+    transition: .3s;
+}
+ul li a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #d9d9d9;
+}
+ul li a.active{
+    color: #ffb400;
+}
+.contact-div{
+    margin: 80px 0;
+}
+.contact{
+    border: 1px solid rgba(243, 222, 222, 0.4);
+    width: fit-content;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 14px 90px;
+    margin: auto;
+    border-radius: 6px;
+}
+.in-touch{
+    font-size: 50px;
+    font-weight: 600;
+    width: fit-content;
+    margin: 60px auto;
+}
+.message{
+    display: flex;
+}
+.message1{
+    width: 40%;
+    margin-top: 110px;
+}
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid rgba(243, 222, 222, 0.4);
+    border-radius: 10px;
+    width: 250px;
+    margin: 0 auto 14px auto;
+    padding: 0 40px;
+}
+.icon{
+    background-color: #d9d9d9;
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon i{
+    font-size: 40px;
+    color: #1f2235;
+}
+.number h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+.number p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: -30px;
+}
+.form{
+    width: 60%;
+}
+.form h3{
+    font-size: 30px;
+}
+input, select, textarea{
+    width: 90%;
+    padding: 15px 10px;
+    margin-top: 20px;
+    background: transparent;
+    font-size: 20px;
+    caret-color: #d9d9d9;
+    color: #d9d9d9;
+    border: 1px solid rgba(243, 222, 222, 0.4);
+    outline: none;
+    border-radius: 8px;
+}
+select{
+    width: 93%;
+}
+textarea{
+    height: 100px;
+}
+.form-group select{
+   
+    color: #8d8383;
+    
+   
+}
+.form-group select option {
+    color: black;
+}
+.form-grou{
+    margin-top: 30px;
+}
+.form-grou button{
+    width: 93%;
+    background-color: #ffb400;
+    border: none;
+    font-size: 26px;
+    font-weight: 600;
+    color: #1f2235;
+    padding: 24px 0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.form-grou button:hover{
+    background-color: transparent;
+    color: #ffb400;
+    border: 1px solid #ffb400;
+}

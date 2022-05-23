@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Inter&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@300&family=Montserrat&family=Open+Sans&family=Poppins:wght@500&family=Roboto+Serif:opsz,wght@8..144,300&family=Roboto+Slab&family=Whisper&display=swap');
+body{
+    background-color: #1f2235;
+    color: #d9d9d9;
+    font-family: Inter;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 60px;
+    position: sticky;
+    top: 0;
+    background: #1f2235;
+    z-index: 1;
+}
+.timi{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #d9d9d9;
+    letter-spacing: 2px;
+}
+nav a{
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+ul li:nth-child(4){
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid rgba(243, 222, 222, 0.4);
+    margin-right: 10px;
+}
+ul li:nth-child(4):hover{
+    background-color: #ffb400;
+}
+nav ul li:last-child{
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid rgba(243, 222, 222, 0.4);
+}
+nav ul li:last-child:hover{
+    background-color: transparent;
+    border: 1px solid #ffb400;
+}
+nav ul li:last-child:hover a{
+    color: #ffb400;
+}
+ul li:last-child a{
+    color: #d9d9d9;
+    transition: .3s;
+}
+ul li a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #d9d9d9;
+}
+/* ul li a:hover{
+    color: #ffb400;
+} */
+ul li a.active{
+    color: #ffb400;
+}
+.login-div{
+    margin: 20px 0;
+}
+.login{
+    border: 1px solid rgba(243, 222, 222, 0.4);
+    width: fit-content;
+    font-size: 40px;
+    font-weight: 400;
+    padding: 10px 70px;
+    margin: auto;
+    border-radius: 6px;
+}
+.login-div p{
+    font-size: 23px;
+    text-align: center;
+}
+.calc1{
+color: #ffb400;
+cursor: pointer;
+text-decoration: none;
+
+
+}
+.calc1:hover{
+color:#d9d9d9
+}
+
+    /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 20px;
+       
+    } */
+    
+    
+    .calculate{
+        background-color: #575757;
+        border-radius: 20px;
+        box-shadow: 1px 1px 5px rgba(39, 37, 37, 0.637);
+        margin: 40px;
+        width: 330px;
+        height: 490px;
+        margin: 0 auto;	
+        border-radius: 20px;
+        padding: 10px;
+    }
+    
+    header{
+        background-color: #89a9a9;
+        width: 300px;
+        height: 100px;
+        border-radius: 20px;
+        margin: 0 auto;	
+        font-size: 65px;
+        margin-top: 8px;
+        color: #000000;
+        text-align: right;
+        
+    
+    }
+    
+    table{
+    
+        margin: 0 auto;
+        margin-top: 20px;
+        cursor: pointer;
+        border-radius: 20px;
+        border-spacing: 10px;
+      
+    }
+    
+    
+    td{
+        width: 110px;
+        height: 50px;
+        text-align: center;
+        font-size: xx-large;
+        color: #000000;
+        background-color: white;
+        border-radius: 4px;    
+    
+    }
+    
+    
+    
+    td:active{
+        background-color: #e0e0d1;
+        
+    }
+    .equal{
+        color: white;
+        background-color: rgba(255, 180, 0, 1);
+    }
+    .equal:active{
+        background-color:#e0e0d1 ;
+    }
+    
+    
+    
+    td:focus{
+        outline: none;
+    } 
+
+
+
+
+
